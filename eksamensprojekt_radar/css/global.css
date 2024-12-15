@@ -21,23 +21,45 @@ h1{
     color: var(--textWhite);
 }
 
-h2{
-    background-color: var(--textWhite);
+h2{;
     width: 15%;
     height: auto;
+    font-family: 'title_rockstar';
+    font-size: 2rem;
 }
 
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
 h3,h4{
     color: var(--textWhite);
+    font-family: 'title_rockstar';
 }
 p{
+    font-family: 'title_rockstar';
     color: var(--textWhite);
+    font-size: 2rem;
 }
 /*Background*/
 body{
-    width: 100vw;
+    width: 100%;
     background-color: var(--backgroundGrey);
     margin: 0;
+}
+main{
+    width: 100%;
+    margin: 0;
+}
+
+section{
+    box-sizing: border-box;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 10rem;
 }
 
 /*Links*/

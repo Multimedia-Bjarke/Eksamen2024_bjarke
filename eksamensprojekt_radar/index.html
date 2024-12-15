@@ -25,72 +25,277 @@
   <body>
     <header></header>
     <main>
+      <!-- SECTION 0 - Hero-->
       <section class="hero">
-        <img
+        <!--<img
           id="hero_img"
           src="images/landingpage/header-slides/Baryl_header.webp"
           alt="billede af bandet Baryl i sort/hvid"
-        />
-        <img
-          src="images/logo/logo_radar_stroke3.png"
-          alt="Radar logo i gul centreret coverbilledet"
-        />
-        <h1>
-          26.05.25 <br />
-          BARYL
-        </h1>
+        /> -->
+
+        <div class="radar_logo">
+          <img
+            src="images/logo/logo_radar_stroke3.png"
+            alt="Radar logo i gul centreret coverbilledet"
+          />
+        </div>
+        <div class="hero_title">
+          <h1>
+            26.05.25 <br />
+            BARYL
+          </h1>
+        </div>
       </section>
 
+      <!-- SECTION 1 - Det sker-->
       <section class="detSker">
         <div class="titleBox">
-          <a href="#"><h2>DET SKER</h2></a>
+          <a href="#"
+            ><h2>
+              <img
+                src="images/buttons/button_detSker.svg"
+                alt="knap: de sker"
+              /></h2
+          ></a>
         </div>
         <div class="artist_container">
           <article class="artistbox">
             <img
+              class="artist_img"
               src="images/landingpage/artist1-bissesvinet_336x336.webp"
               alt="Coverbillede af bandet Bissesvinet"
             />
-            <h3>BISSESVINET</h3>
-            <h4>08.06.25</h4>
+            <div class="artistbox_txt">
+              <h3>BISSESVINET</h3>
+              <h4>08.06.25</h4>
+            </div>
             <a href="#"
-              ><img src="images/buttons/button_laesmere.svg" alt=""
+              ><img
+                class="button_hover"
+                src="images/buttons/button_laesmere.svg"
+                alt="knap: læs mere"
             /></a>
           </article>
 
           <article class="artistbox">
             <img
               class="artist_img"
-              src="images/landingpage/artist2-ungskab.webp"
+              src="images/landingpage/artist2-ungskab_336x336.webp"
               alt="Coverbillede af bandet Ungskab"
             />
             <h3>UNGSKAB</h3>
             <h4>15.06.25</h4>
             <a href="#"
-              ><img src="images/buttons/button_laesmere.svg" alt=""
+              ><img
+                class="button_hover"
+                src="images/buttons/button_laesmere.svg"
+                alt="knap: læs mere"
             /></a>
           </article>
 
           <article class="artistbox">
             <img
               class="artist_img"
-              src="images/landingpage/artist3-magnusmoenster.webp"
+              src="images/landingpage/artist3-magnusmonster_336x336.webp"
               alt="Coverbillede af bandet Bissesvinet"
             />
             <h3>MAGNUS MØNSTER</h3>
             <h4>25.07.25</h4>
             <a href="#"
-              ><img src="images/buttons/button_laesmere.svg" alt=""
-            /></a>
+              ><img
+                class="button_hover"
+                src="images/buttons/button_laesmere.svg"
+                alt=""
+              />
+            </a>
           </article>
         </div>
-        <img src="images/buttons/button_flerekoncerter.svg" alt="" />
+
+        <div class="artist_button">
+          <a href="#"
+            ><img
+              src="images/buttons/button_flerekoncerter.svg"
+              alt="knap: gå til oversigt over flere koncerter"
+          /></a>
+        </div>
       </section>
 
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <!-- SECTION 2 - Hvem er vi?-->
+      <section>
+        <div class="HvemErVi">
+          <article class="article_hvem">
+            <img
+              src="images/landingpage/HvemErVi.webp"
+              alt="sort/hvid billede af spillestedet Radars fasade"
+            />
+          </article>
+
+          <article class="article_hvem">
+            <div>
+              <a href="#"
+                ><img
+                  src="/images/buttons/button_hvemErVi.svg"
+                  alt="knap: hvem er vi"
+              /></a>
+            </div>
+
+            <div class="hvem_txt">
+              <p>
+                Et regionalt spillested i Aarhus med fokus på upcoming musik,
+                niche bands og et unikt fællesskab
+              </p>
+            </div>
+            <div>
+              <a href="#"
+                ><img
+                  src="images/buttons/button_laesmere.svg"
+                  alt="knap: læs mere"
+              /></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION 3 - Hvem er vi?-->
+      <section class="section_holdet">
+        <div class="holdet_title">
+          <a href="#"
+            ><img
+              src="images/buttons/button_blivDelAfHoldet.svg"
+              alt="knap: bliv en del af holdet"
+          /></a>
+        </div>
+
+        <div class="hold_grid">
+          <article>
+            <img
+              class="background_frivillig"
+              src="images/landingpage/holdet_lp/Firefly_frivillig1.webp"
+              alt="billede af frivillig kvinde"
+            />
+            <img
+              class="overlay_frivillig"
+              src="images/landingpage/holdet_lp/Firefly_frivillig2.webp"
+              alt="billede af frivillig mand"
+            />
+          </article>
+
+          <article>
+            <div class="hold_txt">
+              <p>
+                Bliv en af del af holdet på Aarhus måske fedeste spillested hvad
+                angår upcoming artister og fantastiske frivillige!
+              </p>
+            </div>
+            <div>
+              <a href="#"
+                ><img
+                  class="button_hover"
+                  src="images/buttons/button_joinOs.svg"
+                  alt="knap: join os!"
+              /></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION 4 - Memories-->
+      <section>
+        <article>
+          <img
+            src="images/buttons/button_shareYourMemories.svg"
+            alt="titel: share your memories"
+          />
+        </article>
+
+        <article class="polaroid_container1">
+          <img
+            src="images/landingpage/memories_lp/polaroid1.webp"
+            alt="polaroidbillede af metalkoncert"
+          /><img
+            src="images/landingpage/memories_lp/polaroid2.webp"
+            alt="polaroidbillede af koncertminde med rødt lys"
+          />
+          <div class="memories_txt">
+            <p>
+              Send os dine bedste koncertoplevelser og inspirer andre til blive
+              en del af fælleskabet og udleve drømmene!
+            </p>
+          </div>
+        </article>
+
+        <article class="polaroid_container2">
+          <img
+            src="images/landingpage/memories_lp/polaroid3.webp"
+            alt="polaroidbillede af koncertminde"
+          /><img
+            src="images/landingpage/memories_lp/polaroid4.webp"
+            alt="polaroidbillede af koncertminde"
+          /><img
+            src="images/landingpage/memories_lp/polaroid5.webp"
+            alt="polaroidbillede af koncertminde"
+          />
+          <div class="memories_txt">
+            <p>
+              Send os dine bedste koncertoplevelser og inspirer andre til blive
+              en del af fælleskabet og udleve drømmene!
+            </p>
+            <a href="#"
+              ><img
+                class="button_hover"
+                src="images/buttons/button_laesmere.svg"
+                alt="knap: læs mere"
+            /></a>
+          </div>
+        </article>
+      </section>
+
+      <!-- SECTION BREAK - Memory quote-->
+      <section class="section_memQuote">
+        <div class="memory_quote">
+          <h1>
+            “Bedste og mest unikke <br />
+            koncertoplevelse jeg længe <br />
+            har oplevet”
+          </h1>
+        </div>
+      </section>
+
+      <!-- SECTION 5 - Støt os-->
+      <section>
+        <article class="stot_title">
+          <img src="images/buttons/button_stotOs.svg" alt="titel: støt os ❤️" />
+        </article>
+
+        <article class="stot_article1">
+          <p class="stot_text1">
+            Spillesteder kører ikke af sig selv - og det ønsker vi heller
+            ikke.Radar er intet uden vores fantastiske støttere!
+          </p>
+        </article>
+
+        <article class="stot_article2">
+          <p class="stot_text2">
+            Uanset om det er gennem frivillighed, donationer eller <br />en god
+            fadøl, så er vi meget taknemmelig for dit bidrag!
+          </p>
+        </article>
+
+        <article class="stot_article3">
+          <div class="button_txt_container">
+            <p class="stot_text3">
+              Har du lyst til at vide omkring hvordan du kan støtte os, men også
+              hvordan vi bruger din støtte, så læs videre her ❤️
+            </p>
+            <a href="#"
+              ><img
+                class="button_hover"
+                src="images/buttons/button_laesmere.svg"
+                alt="knap: læs mere"
+            /></a>
+          </div>
+        </article>
+      </section>
       <section></section>
     </main>
     <footer></footer>

@@ -1,43 +1,224 @@
-.hero{
-    width: 100vw;
-    height: auto;
-}
-#hero_img{
-    width: 100vw;
-    height: auto;
-}
+
+
+/*hero section */
+
+    .hero{
+        width: 100vw;
+        height: 90vh;
+        background-color: rgba(250, 235, 215, 0);
+        overflow: hidden;
+        background-image: url(/images/landingpage/header-slides/Baryl_header.webp);
+        background-position: center;
+        background-size:cover;
+        size: 100%;
+        margin-left: 0;
+    }
+    #hero_img{
+        width: 100vw;
+        height: auto;
+    }
+
+    .radar_logo{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 50vh;
+    }
+    .hero_title{
+        height: 50%;
+        display: block;
+        font-size: 5rem;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+    }
 
 /*Seciton 1 - Det sker*/
     /*Section "detSker"*/
     .detSker{
         display: block;
+        max-width: 100%;
     }
     .artist_container{
         /*brug grid i stedet! Regn det ud!*/
-        display: flex;
-        width: 50vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        max-width: 100%;
         height: auto;
         row-gap: 5rem;
         column-gap: 5rem;
-        grid-template-columns: repeat(4), 230px;
-        padding-left: 12vw;
-        justify-content: center;
     }
 
     /*Artist boxes*/
     .artistbox{
-        width: 336px;
+        width: 100%;
         height: auto;
-        background-color: aquamarine;
+        background-color: rgba(250, 235, 215, 0);
+        /*overflow-x: hidden;*/
     }
+
     .artist_img{
-        width: 336px;
+        width: 100%;
         height: auto;
+        object-fit: cover;
     }
-    
-    padding: 2rem 0;
-    
-    
-    
-    
-    overflow-x: hidden;
+    .artist_button{
+        display: flex;
+        justify-content: right;
+        padding-top: 3rem;
+    }
+    .artistbox_txt{
+        width: 60%;
+    }
+
+/*Section 2 - Hvem er vi?*/
+
+    /* flex section*/
+    .HvemErVi{
+        display: flex;
+
+    }
+
+    /* Hvem er vi - articles*/
+    .article_hvem{
+        width: 50%;
+    }
+    /*Hvem er vi - texbox*/
+    .hvem_txt{
+        width: 50%;
+    }
+
+/*Buttons*/
+
+    .button_hover:hover{
+        transform: scale(1.1);
+            transition: 0.3s;
+    }
+
+    /*Links*/
+        a:hover{
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+
+
+/*Section 3 - Bliv del af holdet*/
+        /*section flex*/
+        .section_holdet{
+            display: block;
+        }
+
+        .hold_grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        /*Holdet - texbox*/
+        .hold_txt{
+            width: 50%;
+        }
+
+        /*Picture overlay for "bliv del af holdet"*/
+        .background_frivillig{
+            position: relative;
+            top: 0;
+            z-index: 1;
+        }
+
+        .overlay_frivillig{
+            position: relative;
+            top: -30%;
+            left: 30%;
+            z-index: 2;
+        }
+
+        /*Holdet_title*/
+        .holdet_title{
+            display: flex;
+            justify-content: center;
+        }
+
+/*Section 3 - Bliv del af holdet*/
+
+        /*Textbox*/
+        .memories_txt{
+            width: 50%;
+        }
+
+        /*Polariod container*/
+        .polaroid_container1{
+            display: grid;
+            grid-template-columns: 20% 20% 50%;
+            grid-template-rows: auto;
+            max-width: 100%;
+            height: auto;
+            row-gap: 5rem;
+            column-gap: 5rem;
+            padding-top: 2rem;
+
+        }
+        .polaroid_container2{
+            display: grid;
+            grid-template-columns: 20% 20% 20% 40%;
+            grid-template-rows: auto;
+            max-width: 100%;
+            height: auto;
+            row-gap: 5rem;
+            column-gap: 5rem;
+            padding-top: 5rem;
+        }
+
+        /*Memory quote - section */
+
+        .section_memQuote{
+            display: flex;
+            justify-content: center;
+
+        }
+        .memory_quote{
+            width: 70rem;
+            
+        }
+        .memory_quote h1{
+            font-size: 5rem;
+            text-align: center;
+        }
+
+/*Section 5 - Støt os*/
+        /*Title*/
+        .stot_title{
+            display: flex;
+            justify-content: center;
+        }
+
+        /*Textboxes*/
+        .stot_text1{
+            width: 30rem;
+
+        }
+        .stot_text2{
+            width: 30rem;
+        }
+        .stot_text3{
+            width: 30rem;
+        }
+
+        /*Textbox flex-containter*/
+        .stot_article1{
+            display: flex;
+            justify-content: start;
+            
+        }
+        .stot_article2{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .stot_article3{
+            display: flex;
+            justify-content: end;
+
+        }
+        .button_txt_container{
+            display: block;
+        }
