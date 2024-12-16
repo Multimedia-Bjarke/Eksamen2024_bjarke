@@ -138,7 +138,7 @@
             justify-content: center;
         }
 
-/*Section 3 - Bliv del af holdet*/
+/*Section 4 - Memories*/
 
         /*Textbox*/
         .memories_txt{
@@ -203,22 +203,54 @@
             width: 30rem;
         }
 
-        /*Textbox flex-containter*/
-        .stot_article1{
-            display: flex;
-            justify-content: start;
-            
+        /*Textbox grid*/
+        .stot_grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            height: auto;
+            max-width: 100%;
+            row-gap: 0rem;
+            column-gap: 0rem;
+            padding-top: 1rem;
+            box-sizing: border-box;
         }
-        .stot_article2{
-            display: flex;
-            justify-content: center;
-            
+        .grid_article2{
+            grid-row: 2; /* Places the div in the second row */
+            grid-column: 2; /* Places the div in the second column */
         }
-        .stot_article3{
-            display: flex;
-            justify-content: end;
+        .grid_article3{
+            grid-row: 3; /* Places the div in the second row */
+            grid-column: 3; /* Places the div in the second column */
+        }
 
+/*Section 6 - Behind the scenes*/
+
+        /*Grid på section*/
+        .grid_behind{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            height: auto;
+            max-width: 100%;
+            row-gap: 0rem;
+            column-gap: 0rem;
+            padding-top: 1rem;
+            box-sizing: border-box;
+            overflow: visible;
         }
-        .button_txt_container{
-            display: block;
+
+        /*Section remove margin-right*/
+        .behind_margin{
+            display: flex;
+            overflow: visible;
+            width: 100%;
+            height: auto;
+            margin-right: -2rem;
         }
+        /*Textbox behind*/
+        .behind_txt{
+            width: 30rem;
+            text-align: justify;
+        }
+
