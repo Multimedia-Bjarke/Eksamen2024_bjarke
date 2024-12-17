@@ -1,1 +1,126 @@
+/*Color Variables*/
+
+:root{
+    --textWhite: #ffff;
+    --backgroundGrey: #343434;
+    --sortish: #090a0f;
+    --merchbox: #BBB7B7;
+    --footer: #D9D9D9;
+    --radargul: #f8fa10;
+    --kulsort: #000;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "title_rockstar";
+    src: url(/fonts/Rockstar-ExtraBold.otf);
+}
+
 /*Header*/
+header{
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    color: white;
+}
+
+/*Styling af menupunkter*/
+.navbar ul{
+    list-style: none;
+}
+/*Ændring af flex*/
+.navbar ul li{
+    position: relative;
+    float: left;
+}
+/*Styling af links*/
+.navbar ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    padding: 18px;
+    color: #ffffff;
+    display: block;
+    font-family: 'title_rockstar';
+}
+
+#menu-bar {
+    display: none;
+}
+#menu-bar:checked ~ .navbar {
+    display: block;
+}
+/*Fjernelse af dropdown menu ved click*/
+#close-menu {
+    display: none;
+}
+
+@media(max-width:1900px){
+
+
+    header {
+        padding: 20px;
+    }
+    
+    
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left:0;
+        right:0;
+        background: #4848488d;
+        display: none;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+    }
+
+    header .navbar ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li {
+        background: #fafafa;
+    }
+
+    header .navbar ul li ul li ul {
+        width: 100%;
+        left:0;
+    }
+
+    #menu-bar:checked ~ .navbar {
+        display: block;
+    }
+
+}
+
+/*
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-row: 1;
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    z-index: 30;
+}
+
+.nav_icons{
+    display: flex;
+    justify-content: right;
+    height: 2rem;
+}
+*/
