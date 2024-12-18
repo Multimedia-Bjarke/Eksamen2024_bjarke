@@ -19,6 +19,7 @@
 /*Header*/
 header{
     width: 100%;
+    height: auto;
     margin: 0;
     box-sizing: border-box;
     position: fixed;
@@ -26,86 +27,224 @@ header{
     left: 0;
     right: 0;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-content:center;
     z-index: 100;
     color: white;
 }
 
-/*Styling af menupunkter*/
-.navbar ul{
-    list-style: none;
-}
-/*Ændring af flex*/
-.navbar ul li{
-    position: relative;
-    float: left;
-}
-/*Styling af links*/
-.navbar ul li a{
-    text-decoration: none;
-    text-align: center;
-    font-size: 40px;
-    padding: 18px;
-    color: #ffffff;
-    display: block;
-    font-family: 'title_rockstar';
+.logo_header{
+
 }
 
-#menu-bar {
-    display: none;
-}
-#menu-bar:checked ~ .navbar {
-    display: block;
-}
-/*Fjernelse af dropdown menu ved click*/
-#close-menu {
-    display: none;
+.funktioner_header{
+    display: flex;
+    justify-content: flex-end; /* Aligns content to the right */
+    align-items: center; /* Centers content vertically */
+    z-index: 101;
 }
 
-@media(max-width:1900px){
+header img{
+    cursor: pointer;
+}
+/*
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+*/
 
-
-    header {
-        padding: 20px;
+/*Searchbar*/
+    .searchbar{
     }
-    
-    
-
-    header .navbar{
-        position: absolute;
-        top: 100%;
-        left:0;
-        right:0;
-        background: #4848488d;
-        display: none;
-        width: 100vw;
-        height: 100vh;
+    /*Styling af menupunkter*/
+    .searchbar ul{
+        list-style: none;
     }
-
-    header .navbar ul li {
-        width: 100%;
-    }
-
-    header .navbar ul li ul {
+    /*Ændring af flex*/
+    .searchbar{
         position: relative;
-        width: 100%;
+        float: left;
+        text-align: center;
     }
 
-    header .navbar ul li ul li {
-        background: #fafafa;
+    .searchbar h2{
+        font-size: 40px;
+    }
+    /*Styling af links*/
+    .searchbar a{
+        text-decoration: none;
+        text-align: center;
+        font-size: 40px;
+        padding: 18px;
+        color: #ffffff;
+        display: block;
+        font-family: 'title_rockstar';
+
+    }
+    .searchbar form{
+        text-decoration: none;
+        text-align: center;
+        font-size: 40px;
+        padding: 18px;
+        color: #ffffff;
+        display: block;
+        font-family: 'title_rockstar';
+        transform: scale(1.5);
     }
 
-    header .navbar ul li ul li ul {
-        width: 100%;
-        left:0;
+    #search-bar {
+        display: none;
+    }
+    #search-bar:checked ~ .searchbar {
+        display: block;
+    }
+    /*Fjernelse af dropdown menu ved click*/
+    #close-menu {
+        display: none;
+    }
+
+    @media(max-width:1900px){
+    
+        header .searchbar{
+            position: absolute;
+            top: 100%;
+            left:0;
+            right:0;
+            background: #4848488d;
+            display: none;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        header .searchbar ul li {
+            width: 100%;
+        }
+
+        header .searchbar ul li ul {
+            position: relative;
+            width: 100%;
+        }
+
+        header .searchbar ul li ul li {
+            background: #fafafa;
+        }
+
+        header .searchbar ul li ul li ul {
+            width: 100%;
+            left:0;
+        }
+
+        #search-bar:checked ~ .searchbar {
+            display: block;
+        }
+
+    }
+
+/*Styling af submit button*/
+    .button_submit{
+        background-color: var(--textWhite);
+        font-family: "title_rockstar";
+        width: 6rem;
+        height: 2rem;
+    }
+    .button_submit:hover{
+        background-color: var(--radargul);
+        cursor: pointer;
+    }
+
+/*Styling af searchbar-felt*/
+    .form_text{
+        width: 10rem;
+        height: 2rem;
+        font-family: "title_rockstar";
+        letter-spacing: 1px;
+        border: #000;
+        border-radius: 1px;
+        background-color: var(--textWhite);
+        text-align: center;
+    }
+
+/*Navbar - dropdown menu*/
+    /*Styling af menupunkter*/
+    .navbar ul{
+        list-style: none;
+    }
+    /*Ændring af flex*/
+    .navbar ul li{
+        position: relative;
+        float: left;
+    }
+    /*Styling af links*/
+    .navbar ul li a{
+        text-decoration: none;
+        text-align: center;
+        font-size: 40px;
+        padding: 18px;
+        color: #ffffff;
+        display: block;
+        font-family: 'title_rockstar';
+    }
+
+    #menu-bar {
+        display: none;
     }
 
     #menu-bar:checked ~ .navbar {
         display: block;
     }
+    /*Fjernelse af dropdown menu ved click*/
+    #close-menu {
+        display: none;
+    }
 
-}
+    @media(max-width:1900px){
+
+
+        header {
+            padding: 20px;
+        }
+        
+        
+
+        header .navbar{
+            position: absolute;
+            top: 100%;
+            left:0;
+            right:0;
+            background: #4848488d;
+            display: none;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        header .navbar ul li {
+            width: 100%;
+        }
+
+        header .navbar ul li ul {
+            position: relative;
+            width: 100%;
+        }
+
+        header .navbar ul li ul li {
+            background: #fafafa;
+        }
+
+        header .navbar ul li ul li ul {
+            width: 100%;
+            left:0;
+        }
+
+        #menu-bar:checked ~ .navbar {
+            display: block;
+        }
+
+    }
+
+
+
+
+/*Indkøbskurv*/
 
 /*
 .navbar{
