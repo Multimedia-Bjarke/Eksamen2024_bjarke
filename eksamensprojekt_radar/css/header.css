@@ -103,7 +103,7 @@ display: flex;
         display: none;
     }
 
-    @media(max-width:1900px){
+    @media(max-width:8800px){
     
         header .searchbar{
             position: absolute;
@@ -197,7 +197,7 @@ display: flex;
         display: none;
     }
 
-    @media(max-width:1900px){
+    @media(max-width:8800px){
 
 
         header {

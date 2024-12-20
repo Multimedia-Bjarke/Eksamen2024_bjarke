@@ -1,0 +1,168 @@
+/*Color Variables*/
+
+:root{
+    --textWhite: #ffff;
+    --backgroundGrey: #343434;
+    --sortish: #090a0f;
+    --merchbox: #BBB7B7;
+    --footer: #D9D9D9;
+    --radargul: #f8fa10;
+    --kulsort: #000;
+}
+
+section{
+    margin: 0;
+    width: 100%;
+}
+
+/*Links*/
+a:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/*Section 1 - Titel/hero*/
+
+    .hvem_title{
+        display: flex;
+        justify-content: center;
+    }
+    .hvem_title h1{
+        color: var(--radargul);
+        font-size: 7rem;
+        position: relative;
+        top: -3rem;
+    }
+    
+    .hero_container{
+        margin: 0;
+        width: 100%;
+    }
+
+/*Section 2 - Historie*/
+    
+    .section_historie{
+        margin-right: 0;
+        margin-left: 0;
+}
+    /*Title - historie*/
+    .title_historie{
+    }
+
+    /*Textboxes*/
+    .textbox_historie{
+        width: 100%;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        text-align: left;
+    }
+
+    /*Grid*/
+    .grid_textbox_historie{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+
+    }
+    
+/*Section 3 - profil*/
+    .section_profil{
+        display: block;
+
+    }
+   /*Tekst afsnit*/
+    .info_profil{
+        width: 100%;
+        display: block;
+    }
+    
+    .button_profil{
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        align-items: center;
+    }
+
+    .textbox_profil1{
+        display: block;
+        justify-self: center;
+        text-align: center;
+        width: 100%
+    }
+    .textbox_profil2{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        width: 100%;
+        align-content: space-evenly;
+    }
+
+    .textbox_profil2 p{
+        width: 100%;
+    }
+
+/*Section 4 - Visioner*/
+    .section_visioner{
+        display: block;
+    }
+
+    .content_visioner{
+        display: block;
+    }
+    /*Textboxes*/
+    .grid_textbox_visioner{
+        display: grid;
+        justify-items: center;
+    }
+
+    .textbox_visioner{
+        width: 50%;
+        display: flex;
+        text-align: left;
+    }
+
+    .textbox_visioner img{
+        padding-right: 3rem;
+    }
+
+/*Section 5 - Medarbejdere*/
+    .section_medarbejdere{
+        
+    }
+
+    .title_medarbejdere{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+
+    /*Content ecsl. title*/
+    .medarbejdere_content{
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-items: right;
+    }
+
+    /*textboxes*/
+    .flex_textbox{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: left;
+
+    }
+
+    .section_medarbejdere p{
+        max-width: 35rem;
+    }
+
+    .textalign_right{
+        text-align: right;
+    }
+
+    /*Medarbejderbilleder*/
+    .section_medarbejdere img{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
