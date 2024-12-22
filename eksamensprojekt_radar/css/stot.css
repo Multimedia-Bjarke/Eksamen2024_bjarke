@@ -1,0 +1,48 @@
+/*Color Variables*/
+
+:root{
+    --textWhite: #ffff;
+    --backgroundGrey: #343434;
+    --sortish: #090a0f;
+    --merchbox: #BBB7B7;
+    --footer: #D9D9D9;
+    --radargul: #f8fa10;
+    --kulsort: #000;
+}
+
+/*Links*/
+a:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/*hero section */
+
+    .hero{
+        width: 100vw;
+        height: 90vh;
+        background-color: rgba(250, 235, 215, 0);
+        overflow: hidden;
+        background-image: url(/images/stot/stotOs_banner7_5500x3094.webp);
+        background-position: center;
+        background-size: cover;
+        size: 100%;
+        margin-left: 0;
+    }
+    #hero_img{
+        width: 100vw;
+        height: auto;
+    }
+
+    .stot_title{
+        height: 50%;
+        display: flex;
+        font-size: 5rem;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stot_title h1{
+        color: var(--radargul);
+    }

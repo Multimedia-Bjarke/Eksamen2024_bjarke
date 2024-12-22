@@ -27,13 +27,14 @@
         width: 100vw;
         height: auto;
     }
-
     .radar_logo{
         display: flex;
-        justify-content: center;
+        justify-self: center;
+        padding-top: 4rem;
         position: relative;
-        bottom: 50vh;
+        transform: scale(2);
     }
+
     .hero_title{
         height: 50%;
         display: block;

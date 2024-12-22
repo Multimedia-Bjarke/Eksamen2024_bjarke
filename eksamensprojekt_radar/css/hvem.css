@@ -81,25 +81,37 @@ a:hover{
         justify-content: center;
         padding-top: 2rem;
         align-items: center;
+        padding-bottom: 4rem;
     }
 
     .textbox_profil1{
         display: block;
         justify-self: center;
         text-align: center;
-        width: 100%
+        align-self: center;
+        width: 100%;
     }
     .textbox_profil2{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         text-align: left;
         width: 100%;
-        align-content: space-evenly;
+        align-items: flex-start;
+        padding-top: 4rem;
     }
 
     .textbox_profil2 p{
+        margin: 0;
         width: 100%;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        justify-content: center;
+        color: var(--radargul);
+        text-align: justify;
+        font-size: 57px;
+        padding-top: 4rem;
     }
+
 
 /*Section 4 - Visioner*/
     .section_visioner{
@@ -127,20 +139,20 @@ a:hover{
 
 /*Section 5 - Medarbejdere*/
     .section_medarbejdere{
-        
+        margin-bottom: 0;
     }
 
     .title_medarbejdere{
         display: flex;
         justify-content: center;
-        padding-bottom: 2rem;
+        padding-bottom: 4rem;
     }
 
-    /*Content ecsl. title*/
+    /*Content excl. title*/
     .medarbejdere_content{
         display: grid;
         grid-template-columns: 1;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         justify-items: right;
     }
 
@@ -165,4 +177,9 @@ a:hover{
     .section_medarbejdere img{
         padding-left: 4rem;
         padding-right: 4rem;
+    }
+
+    /*Margin right - textboxes*/
+    .margin_right{
+        margin-right: 4rem;
     }
