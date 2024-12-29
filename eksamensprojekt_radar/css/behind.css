@@ -1,0 +1,74 @@
+/*Color Variables*/
+
+:root{
+    --textWhite: #ffff;
+    --backgroundGrey: #343434;
+    --sortish: #090a0f;
+    --merchbox: #BBB7B7;
+    --footer: #D9D9D9;
+    --radargul: #f8fa10;
+    --kulsort: #000;
+}
+
+/*Links*/
+a:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Section 0 - Hero*/
+
+    .hero{
+        width: 100vw;
+        height: 90vh;
+        background-color: rgba(250, 235, 215, 0);
+        overflow: hidden;
+        background-image: url(/images/behind/BehindTheScenes_banner.webp);
+        background-position: center;
+        background-size: cover;
+        size: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    #hero_img{
+        width: 100vw;
+        height: auto;
+    }
+
+    .behind_title{
+        height: 50%;
+        display: flex;
+        font-size: 5rem;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .behind_title h1{
+        color: var(--radargul);
+    }
+
+/*section 1 - Video tour */
+    .section_video{
+
+    }
+    /*FIX YT VIDEO - SE W# TUT*/
+    
+    /*Video container*/
+    #video_container{
+        display: flex;
+        justify-self: center;
+        width: 100%;
+        height: auto;
+        z-index: 100;
+        object-fit: cover;
+        top: 40rem;
+        left: 40rem;
+        background-color: aliceblue;
+        animation-play-state: running;
+    }
+
+    #video_container video{
+        height: 100%;
+        width: 100%;
+    }

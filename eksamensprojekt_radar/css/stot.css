@@ -65,6 +65,7 @@ a:hover{
     .textbox_hvorfor p{
         width: 100%;
         font-size: 36px;
+        text-align: left;
     }
 
     /*Grid - values*/
@@ -76,4 +77,73 @@ a:hover{
 
     .grid_values p{
         font-size: 50px;
+    }
+
+/*Section 2 - Hvad går støtten til*/
+    .section_hvad{
+        display: block;
+    }
+
+    /*Section title*/
+    .title_hvad{
+        display: flex;
+        justify-content: right;
+        padding-bottom: 3rem;
+    }
+
+    /*Textboxes*/
+    .textbox_hvad{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: auto;
+        width: 100%;
+        height: auto;
+    }
+
+/*Section 3 - Processen*/
+    .section_processen{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: -45rem;
+    }
+
+    /*Steps container*/
+    .step_container{
+        width: 15rem;
+        text-align: left;
+    }
+
+    .step_container p{
+        width: 100%;
+    }
+    #step1{
+        position: relative;
+        left: 3rem;
+        top: 4rem;
+    }
+    #step2{
+        position: relative;
+        left: 60rem;
+        bottom: 15rem;
+    }
+    #step3{
+        position: relative;
+        left: 40rem;
+        bottom: 10rem;
+    }
+    #step4{
+        position: relative;
+        left: 3rem;
+        bottom: 30rem;
+    }
+    #step5{
+        position: relative;
+        left: 25rem;
+        bottom: 25rem;
+    }
+    #button_doner{
+        position: relative;
+        left: 60rem;
+        bottom: 41rem;
     }
