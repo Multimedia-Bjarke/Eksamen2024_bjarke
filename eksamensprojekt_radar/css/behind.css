@@ -72,3 +72,45 @@ a:hover{
         height: 100%;
         width: 100%;
     }
+
+/*Sektion 2 - Faciliteter*/
+    .section_faciliteter{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /*Section title*/
+    .button_title{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4rem;
+    }
+
+    /*Faciliteter container*/
+    .faciliteter_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    /*Faciliteter content*/
+        .img_kort{
+
+        }
+
+        .faciliteter_liste{
+
+        }
+
+        .img_faciliteter{
+
+        }
+    /*List points*/
+    li{
+        font-family: 'title_rockstar';
+        color: var(--textWhite);
+        font-size: 2rem;
+        line-height: 4rem;
+    }
