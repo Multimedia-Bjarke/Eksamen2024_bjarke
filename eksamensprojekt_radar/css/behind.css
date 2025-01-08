@@ -50,7 +50,8 @@ a:hover{
 
 /*section 1 - Video tour */
     .section_video{
-
+        margin-left: 0;
+        margin-right: 0;
     }
     /*FIX YT VIDEO - SE W# TUT*/
     
@@ -105,7 +106,6 @@ a:hover{
         }
 
         .img_faciliteter{
-
         }
     /*List points*/
     li{
@@ -113,4 +113,10 @@ a:hover{
         color: var(--textWhite);
         font-size: 2rem;
         line-height: 4rem;
+    }
+    /*Title Videotour*/
+    .button_VideoTour{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5rem;
     }
