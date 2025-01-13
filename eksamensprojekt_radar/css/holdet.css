@@ -48,3 +48,89 @@ a:hover{
     }
 
 /* Section 1 - Hold gevinster*/
+    .section_gevinster{
+        display: block;
+    }
+
+    /*Placering af container*/
+    .gevinst_container{
+        display: block;
+        justify-items: center;
+    }
+
+    /*gevinst mapper*/
+    .padding_gevinst{
+        padding-bottom: 6rem;
+    }
+
+/* Section 2 - Hvorfor blive frivillig*/
+    .section_hvorfor{
+        display: flex;
+        margin-right: 0;
+    }
+
+    /*Half hero - Hvorfor*/
+    .hvorfor_img{
+        
+    }
+
+    /*title - hvorfor*/
+    .title_hvorfor{
+        padding-top: 11rem;
+        padding-bottom: 3rem;
+    }
+    /*textbox*/
+    .hvorfor_textbox{
+        padding-right: 2rem;
+    }
+
+/* Section 3 - Vi har brug for*/
+    .section_viHarBrugFor{}
+    
+    /*title - vi har brug for*/
+    .title_viHarBrugFor{
+        padding-bottom: 2rem;
+    }
+
+    /*h3'er variation*/
+    .section_viHarBrugFor h3{
+    }
+
+    /*p variation*/
+    .section_viHarBrugFor p{
+        font-family: Helvetica;
+        font-size:x-large;
+        margin-top: -1.5rem;
+    }
+
+    /*Grid - textboxes*/
+    .grid_textboxes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 5rem;
+        column-gap: 10rem;
+        justify-items: center;
+    }
+
+    /*Block - textbox*/
+    .block_textbox{
+        display: block;
+    }
+
+/* Section 4 - Bliv frivillig nu*/
+    .section_blivFrivilligNu{
+        display: block;
+        justify-items: center;
+    }
+
+    /*Container - bliv*/
+    .bliv_container{
+        display: block;
+        justify-items: left;
+    }
+
+    .bliv_container a:hover{
+        transform: scale(1.1);
+    transition: 0.3s;
+    }
