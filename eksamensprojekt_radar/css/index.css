@@ -51,7 +51,10 @@
         max-width: 100%;
         background-color: var(--footer);
         margin: 0;
-        
+    }
+
+    .titleBox{
+        padding-bottom: 3rem;
     }
 
     .margin_detSker{
@@ -85,13 +88,28 @@
     }
     .artist_button{
         display: flex;
-        justify-content: right;
+        justify-items: left;
         padding-top: 3rem;
     }
     .artistbox_txt{
         width: 60%;
     }
 
+    /*Scroll container*/
+    div.scroll-container {
+        background-color: var(--footer);
+        overflow: auto;
+        white-space: nowrap;
+        display: flex;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        
+      }
+      
+      div.scroll-container img {
+        padding-right: 4rem;
+      }
 /*Section 2 - Hvem er vi?*/
     .section_hvem{
         margin: 0;
@@ -275,7 +293,10 @@
         }
 
 /*Section 6 - Behind the scenes*/
-
+        /* Title box*/ 
+        .title_box{
+            padding-top: 4rem;
+        }
         /*Grid på section*/
         .grid_behind{
             display: grid;
@@ -306,14 +327,4 @@
         }
 
 
-
-        div.scroll-container {
-            background-color: #333;
-            overflow: auto;
-            white-space: nowrap;
-            padding: 10px;
-          }
-          
-          div.scroll-container img {
-            padding: 10px;
-          }
+        
