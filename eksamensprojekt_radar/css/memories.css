@@ -75,3 +75,26 @@ a:hover{
         display: flex;
         justify-content: right;
     }
+
+/*Section 2 - Memories*/
+.section_memories{
+}
+
+    /*Section title*/
+    .title_polaroids{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+    }
+
+    /*Polaroids container*/
+    .polaroids{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr;
+        column-gap: 0,5rem;
+        row-gap: 1rem;
+        justify-items: center;
+
+    }
+
