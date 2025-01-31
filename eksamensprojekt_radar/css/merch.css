@@ -159,3 +159,37 @@ a:hover{
         margin-bottom: -1rem;
     }
 
+/*@Media breakpoints - Responsivitet*/
+
+    /*Laptop (large screens)*/
+
+
+
+    /*Tablets (medium screens) Max-width 1024px*/
+    @media (max-width: 1024px) {
+        /*Produkter Container*/
+    .produkter_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 10rem;
+        justify-items: center;
+        height: 100%;
+    }
+    }
+    
+
+    /*Mobile (small screens) Max-width 768px*/
+    @media (max-width: 768px) {
+        .produkter_container {
+            grid-template-columns: 1fr; /* 1 column layout */
+        }
+    
+        .hero {
+            height: 50vh; /* Reduce hero section height */
+        }
+    
+        .produkt_txt_pad {
+            text-align: center; /* Center align text */
+        }
+    }

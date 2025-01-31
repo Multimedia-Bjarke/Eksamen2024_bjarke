@@ -10,6 +10,7 @@
     --kulsort: #000;
 }
 
+
 /*Links*/
 a:hover{
     transform: scale(1.1);
@@ -22,6 +23,14 @@ a:hover{
     src: url(/fonts/Rockstar-ExtraBold.otf);
 }
 
+body{
+    width: 100vw;
+    margin: 0;
+}
+
+section{
+    margin: 0;
+}
 
 /*hero section */
 
@@ -57,17 +66,30 @@ a:hover{
 /*Section 1 - Hvorfor støtte*/
     .section_hvorfor{
         display: block;
+        margin-left: 2rem;
+        overflow: hidden;
     }
 
     /*Section Title*/
     .title_hvorfor{
-
     }
+
+    .flex_with_picture{
+        display: flex;
+        margin: 0;
+        width: 100%;
+    }
+    .flex_with_picture img{
+        display: flex;
+        
+    }
+
     /*Textboxes*/
     .textbox_hvorfor{
         width: 50%;
         padding-top: 2rem;
         padding-bottom: 4rem;
+        padding-right: 4rem;
     }
     .textbox_hvorfor p{
         width: 100%;
@@ -75,6 +97,12 @@ a:hover{
         text-align: left;
     }
 
+    /*Hvorfor img*/
+    .fistbump_img{
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
     /*Grid - values*/
     .grid_values{
         display: grid;
@@ -90,6 +118,7 @@ a:hover{
 /*Section 2 - Hvad går støtten til*/
     .section_hvad{
         display: block;
+        overflow: hidden;
     }
 
     /*Section title*/
@@ -118,6 +147,8 @@ a:hover{
         width: 100%;
         height: auto;
         margin-bottom: -45rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 
     /*Steps container*/
