@@ -15,6 +15,10 @@ a:hover{
     transform: scale(1.1);
     transition: 0.3s;
 }
+.button_hover img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 
 /* Section 0 - Hero*/
     .hero{

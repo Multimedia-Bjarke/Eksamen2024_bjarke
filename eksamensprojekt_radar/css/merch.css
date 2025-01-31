@@ -16,6 +16,11 @@ a:hover{
     transition: 0.3s;
 }
 
+#koeb_hover img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 /*Section 0 - Hero*/
 /*hero section */
 
@@ -24,12 +29,13 @@ a:hover{
         height: 90vh;
         background-color: rgba(250, 235, 215, 0);
         overflow: hidden;
-        background-image: url(/images/merch/mulepose1_2x3_bw.webp);
+        background-image: url(/images/merch/mulepose2.svg);
         background-position: center;
         background-size: cover;
         size: 100%;
         margin-left: 0;
     }
+    mulepose1_2x3_bw.webp
     #hero_img{
         width: 100vw;
         height: auto;
@@ -52,19 +58,25 @@ a:hover{
     .section_merch{
         display: block;
         justify-content: center;
+        height: 100%;
+        overflow: visible;
+        margin-top: -4rem;
 
     }
     /*Title*/
     .button_merch{
-
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4rem;
     }
     /*Produkter Container*/
     .produkter_container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 2;
-        row-gap: 4rem;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 10rem;
         justify-items: center;
+        height: 100%;
 
     }
 
@@ -73,33 +85,77 @@ a:hover{
         background-color: var(--merchbox);
         width: 20rem;
         height: 30rem;
+        display: block;
+        justify-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left:0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 0.5rem;
     }
     #produkt2{
-        background-color: yellow;
+        background-color: var(--merchbox);
         width: 20rem;
         height: 30rem;
+        display: block;
+        justify-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left:0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 0.5rem;
     }
     #produkt3{
-        background-color: green;
+        background-color: var(--merchbox);
         width: 20rem;
         height: 30rem;
+        display: block;
+        justify-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left:0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 0.5rem;
     }
     #produkt4{
-        background-color: red;
+        background-color: var(--merchbox);
         width: 20rem;
         height: 30rem;
+        display: block;
+        justify-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left:0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 0.5rem;
     }
     #produkt5{
-        background-color: blue;
+        background-color: var(--merchbox);
         width: 20rem;
         height: 30rem;
+        display: block;
+        justify-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left:0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 0.5rem;
     }
     #produkt6{
-        background-color: violet;
+        background-color: var(--merchbox);
         width: 20rem;
         height: 30rem;
+        display: block;
+        justify-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left:0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 0.5rem;
     }
     /*Textbox padding*/
     .produkt_txt_pad{
-        padding: 2rem;
+        padding-left: 1rem;
+        margin-bottom: -1rem;
     }
+

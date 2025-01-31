@@ -53,7 +53,6 @@ a:hover{
         margin-left: 0;
         margin-right: 0;
     }
-    /*FIX YT VIDEO - SE W# TUT*/
     
     /*Video container*/
     #video_container{
@@ -96,23 +95,13 @@ a:hover{
         width: 100%;
     }
 
-    /*Faciliteter content*/
-        .img_kort{
 
-        }
-
-        .faciliteter_liste{
-
-        }
-
-        .img_faciliteter{
-        }
     /*List points*/
     li{
         font-family: 'title_rockstar';
         color: var(--textWhite);
         font-size: 2rem;
-        line-height: 4rem;
+        line-height: 2rem;
     }
     /*Title Videotour*/
     .button_VideoTour{

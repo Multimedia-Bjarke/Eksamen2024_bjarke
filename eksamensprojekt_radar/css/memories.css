@@ -16,6 +16,11 @@ a:hover{
     transition: 0.3s;
 }
 
+.button_hover img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 /* Section 0 - Hero*/
 
     .hero{
@@ -117,7 +122,15 @@ a:hover{
         height: 10rem;
         width: auto;
         border-radius: 10px;
+        font-family: "rockstar";
     }
+
+    #upload_button input{
+        font-family: "rockstar";
+        color: var(--sortish);
+        padding-left: 1rem;
+    }
+
 
     .button_beskrivelse{
         padding-top: 5rem;

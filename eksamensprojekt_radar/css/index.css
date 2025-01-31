@@ -78,7 +78,7 @@
         width: 100%;
         height: auto;
         background-color: rgba(250, 235, 215, 0);
-        /*overflow-x: hidden;*/
+        margin-left: 1rem;
     }
 
     .artist_img{
@@ -144,6 +144,11 @@
             transition: 0.3s;
         }
 
+        #seMere_hover img:hover{
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+
 
 /*Section 3 - Bliv del af holdet*/
         /*section flex*/
@@ -185,6 +190,7 @@
         .holdet_title{
             display: flex;
             justify-content: center;
+            padding-bottom: 5rem;
         }
 
 /*Section 4 - Memories*/

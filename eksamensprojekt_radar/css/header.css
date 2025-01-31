@@ -33,10 +33,6 @@ header{
     color: white;
 }
 
-.logo_header{
-
-}
-
 .funktioner_header{
     display: flex;
     justify-content: flex-end; /* Aligns content to the right */
@@ -53,9 +49,10 @@ display: flex;
     justify-content: space-between;
 */
 
-/*Searchbar*/
+/*Searchbar*/ /*
     .searchbar{
     }
+    */
     /*Styling af menupunkter*/
     .searchbar ul{
         list-style: none;

@@ -16,6 +16,13 @@ a:hover{
     transition: 0.3s;
 }
 
+/*Fonts*/
+@font-face {
+    font-family: "title_rockstar";
+    src: url(/fonts/Rockstar-ExtraBold.otf);
+}
+
+
 /*hero section */
 
     .hero{
@@ -88,7 +95,7 @@ a:hover{
     /*Section title*/
     .title_hvad{
         display: flex;
-        justify-content: right;
+        justify-content: center;
         padding-bottom: 3rem;
     }
 
@@ -100,7 +107,11 @@ a:hover{
         width: 100%;
         height: auto;
     }
-
+    .section_hvad li{
+        font-family: "title_rockstar";
+        color: var(--textWhite);
+        list-style-type: none;
+    }
 /*Section 3 - Processen*/
     .section_processen{
         display: block;
@@ -147,4 +158,16 @@ a:hover{
         position: relative;
         left: 60rem;
         bottom: 41rem;
+    }
+    #button_doner:hover{
+        transform: scale(1.1);
+    transition: 0.3s;
+    }
+
+    /*List points*/
+    li{
+        font-family: 'title_rockstar';
+        color: var(--textWhite);
+        font-size: 2rem;
+        line-height: 2rem;
     }
