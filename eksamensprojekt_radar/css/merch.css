@@ -167,6 +167,15 @@ a:hover{
 
     /*Tablets (medium screens) Max-width 1024px*/
     @media (max-width: 1024px) {
+        /*Generelt*/
+        body{
+            max-width: 100vw;
+        }
+
+        .hero {
+            height: 50vh; /* Reduce hero section height */
+        }
+
         /*Produkter Container*/
     .produkter_container{
         display: grid;

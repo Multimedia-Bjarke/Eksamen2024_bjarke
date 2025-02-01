@@ -157,9 +157,45 @@ a:hover{
 
 /*Responsivity*/
 
+
+/*Tablets (medium screens) Max-width 1024px*/
+@media (max-width: 1024px) {
+    body{
+        max-width: 100vw;
+    }
+
+    .hero {
+        height: 50vh; /* Reduce hero section height */
+    }
+
+/*Polariod placement*/
+.flex_share img{
+    display: flex;
+    justify-self: center;
+}
+
+/*Polaroids container*/
+.polaroids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    justify-items: center;
+    transform: scale(0.8);
+}
+
+.upload_txt{
+    width: 50%;
+    text-align: justify;
+}
+}
+
+/*Responsivity*/
+
     /*Mobile (small screens) Max-width 768px*/
     @media (max-width: 768px) {
-
+        /*Generelt*/
         body{
             max-width: 100vw;
         }
@@ -167,3 +203,37 @@ a:hover{
         .hero {
             height: 50vh; /* Reduce hero section height */
         }
+
+        /*Flex*/
+        .flex_share{
+            display: block;
+
+        }
+
+        /*Textbox*/
+    .flex_share p{
+        width: 100vw;
+        margin-right: 3rem;
+    }
+
+    /*Polariod placement*/
+    .flex_share img{
+        display: flex;
+        justify-self: center;
+    }
+
+    /*Polaroids container*/
+    .polaroids{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        row-gap: 1.5rem;
+        column-gap: 1.5rem;
+        justify-items: center;
+    }
+
+    .upload_txt{
+        width: 100%;
+        text-align: justify;
+    }
+}
