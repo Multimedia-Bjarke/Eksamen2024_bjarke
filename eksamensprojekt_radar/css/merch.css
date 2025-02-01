@@ -181,6 +181,10 @@ a:hover{
 
     /*Mobile (small screens) Max-width 768px*/
     @media (max-width: 768px) {
+
+        body{
+            max-width: 100vw;
+        }
         .produkter_container {
             grid-template-columns: 1fr; /* 1 column layout */
         }
@@ -192,4 +196,7 @@ a:hover{
         .produkt_txt_pad {
             text-align: center; /* Center align text */
         }
+
+        
+
     }
