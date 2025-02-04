@@ -197,6 +197,59 @@ a:hover{
             height: 50vh; /* Reduce hero section height */
         }
 
+    /*Section 5 - Medarbejdere*/
+    .section_medarbejdere{
+        margin-bottom: 0;
+        transform: scale(0.9);
+    }
+
+    .title_medarbejdere{
+        display: flex;
+        justify-items: center;
+        padding-bottom: 4rem;
+    }
+
+    /*Content excl. title*/
+    .medarbejdere_content{
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: right;
+    }
+
+    /*textboxes*/
+    .flex_textbox{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: left;
+
+    }
+
+    .section_medarbejdere p{
+        max-width: 35rem;
+    }
+
+    .textalign_right{
+        text-align: right;
+    }
+
+    /*Medarbejderbilleder*/
+    .section_medarbejdere img{
+        padding-left: 4rem;
+        padding-right: 4rem;
+        display: block;
+        justify-self: center;
+        padding-bottom: 2rem;
+    }
+
+    /*Margin right - textboxes*/
+    .margin_right{
+        margin-right: 4rem;
+        display: none;
+    }
+
+    }
 
     /*Mobile (small screens) Max-width 768px*/
     @media (max-width: 768px) {
@@ -330,9 +383,56 @@ a:hover{
     }
 
 /*Section 5 - Medarbejdere*/
+    /*Section 5 - Medarbejdere*/
     .section_medarbejdere{
         margin-bottom: 0;
+        transform: scale(0.9);
+    }
+
+    .title_medarbejdere{
+        display: flex;
+        justify-items: center;
+        padding-bottom: 4rem;
+    }
+
+    /*Content excl. title*/
+    .medarbejdere_content{
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: right;
+    }
+
+    /*textboxes*/
+    .flex_textbox{
+        display: block;
+        justify-content: center;
+        align-content: center;
+        text-align: left;
+
+    }
+
+    .section_medarbejdere p{
+        max-width: 35rem;
+    }
+
+    .textalign_right{
+        text-align: right;
+    }
+
+    /*Medarbejderbilleder*/
+    .section_medarbejdere img{
+        padding-left: 4rem;
+        padding-right: 4rem;
+        display: block;
+        justify-self: center;
+        padding-bottom: 2rem;
+    }
+
+    /*Margin right - textboxes*/
+    .margin_right{
+        margin-right: 4rem;
         display: none;
     }
 
-}
+    }
