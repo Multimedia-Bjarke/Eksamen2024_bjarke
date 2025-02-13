@@ -138,3 +138,136 @@ a:hover{
         transform: scale(1.1);
     transition: 0.3s;
     }
+
+
+
+/*Responsivity*/ 
+
+    /*Tablets (medium screens) Max-width 1024px*/
+    @media (max-width: 1024px) {
+        /*Generelt*/
+        body{
+            max-width: 100vw;
+        }
+
+        .hero {
+            height: 50vh; /* Reduce hero section height */
+        }
+
+        /* Section 2 - Hvorfor blive frivillig*/
+    .section_hvorfor{
+        display: flex;
+        margin-right: 0;
+    }
+
+    /*Half hero - Hvorfor*/
+    .hvorfor_img{
+        
+    }
+
+    /*title - hvorfor*/
+    .title_hvorfor{
+        padding-top: 11rem;
+        padding-bottom: 3rem;
+    }
+    /*textbox*/
+    .hvorfor_textbox{
+        padding-right: 2rem;
+    }
+
+    }
+
+    /*Mobile (small screens) Max-width 768px*/
+    @media (max-width: 768px) {
+        /*Generelt*/
+        body{
+            max-width: 100vw;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        .hero_container img {
+            display: block;
+            height: 50vh; /* Reduce hero section height */
+            justify-self: center;
+
+        }
+    }
+        /* Section 2 - Hvorfor blive frivillig*/
+    .section_hvorfor{
+        display: block;
+        margin-right: 0rem;
+        width: 100vw;
+    }
+
+    /*Half hero - Hvorfor*/
+    .hvorfor_img{
+        display: flex;
+        justify-content: center;
+        transform: scale(2);
+        width: 100vw;
+        height: 50vh;
+        margin: 0;
+
+    }
+
+    /*title - hvorfor*/
+    .title_hvorfor{
+        padding-top: 11rem;
+        padding-bottom: 3rem;
+    }
+
+    .title_hvorfor img{
+        display: block;
+        padding-top: 11rem;
+        padding-bottom: 3rem;
+        justify-items: center;
+    }
+
+    /*textbox*/
+    .hvorfor_textbox{
+        display: block;
+        padding-right: 2rem;
+    }
+
+    .hvorfor_textbox p{
+        display: block;
+        padding-right: 2rem;
+        justify-self: center;
+    }
+
+/* Section 3 - Vi har brug for*/
+.section_viHarBrugFor{}
+    
+/*title - vi har brug for*/
+.title_viHarBrugFor{
+    padding-bottom: 2rem;
+}
+
+/*h3'er variation*/
+.section_viHarBrugFor h3{
+}
+
+/*p variation*/
+.section_viHarBrugFor p{
+    font-family: Helvetica;
+    font-size:x-large;
+    margin-top: -1.5rem;
+}
+
+/*Grid - textboxes*/
+.grid_textboxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 5rem;
+    column-gap: 10rem;
+    justify-items: center;
+}
+
+/*Block - textbox*/
+.block_textbox{
+    display: block;
+}
