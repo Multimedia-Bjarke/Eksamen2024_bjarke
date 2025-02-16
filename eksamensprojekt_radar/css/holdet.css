@@ -162,8 +162,12 @@ a:hover{
 
     /*Half hero - Hvorfor*/
     .hvorfor_img{
+        display: flex;
         width: 100vw;
+        height: 80vh;
+        justify-content: right;
     }
+
 
     /*title - hvorfor*/
     .title_hvorfor{
