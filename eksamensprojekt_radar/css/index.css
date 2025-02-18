@@ -594,34 +594,43 @@
                 margin-right: 2rem;
                 margin-bottom: 2rem;
                 margin-top: -7rem;
+                max-width: 100vw;
+        }
+
+        #memories_title{
+            display: block;
+            justify-self: center;
         }
 
         /*Textbox*/
         .memories_txt{
-            width: 50%;
+            display: block;
+            width: 100%;
         }
 
         /*Polariod container*/
         .polaroid_container1{
             display: grid;
-            grid-template-columns: 20% 20% 50%;
+            grid-template-columns: 1fr ;
             grid-template-rows: auto;
             max-width: 100%;
             height: auto;
             row-gap: 5rem;
             column-gap: 5rem;
             padding-top: 2rem;
+            justify-items: center;
 
         }
         .polaroid_container2{
             display: grid;
-            grid-template-columns: 20% 20% 20% 40%;
+            grid-template-columns: 1fr ;
             grid-template-rows: auto;
             max-width: 100%;
             height: auto;
             row-gap: 5rem;
             column-gap: 5rem;
-            padding-top: 5rem;
+            padding-top: 2rem;
+            justify-items: center;
         }
 
         /*Memory quote - section */
@@ -632,11 +641,12 @@
 
         }
         .memory_quote{
-            width: 70rem;
+            width: 40rem;
+            margin-top: -10rem;
             
         }
         .memory_quote h1{
-            font-size: 5rem;
+            font-size: 4rem;
             text-align: center;
         }
 
@@ -663,17 +673,24 @@
         .section_stot{
             background-color: var(--footer);
             margin: 0;
+            max-width: 100vw;
+            display: block;
+            justify-content: center;
         }
 
         .section_stot p{
             color: #090a0f;
+            font-size: 1.5rem;
+            text-align: left;
+            width: 80%;
+            display: block;
         }
         .stot_grid{
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr ;
             height: auto;
-            max-width: 100%;
+            max-width: 100vw;
             row-gap: 0rem;
             column-gap: 0rem;
             padding-top: 1rem;
@@ -681,15 +698,20 @@
             margin-left: 2rem;
             margin-right: -20rem;
             margin-bottom: 2rem;
+            justify-content: center;
+        }
+        .grid_article1{
+            grid-row: 1; /* Places the div in the second row */
+            grid-column: 1; /* Places the div in the second column */
         }
 
         .grid_article2{
             grid-row: 2; /* Places the div in the second row */
-            grid-column: 2; /* Places the div in the second column */
+            grid-column: 1; /* Places the div in the second column */
         }
         .grid_article3{
             grid-row: 3; /* Places the div in the second row */
-            grid-column: 3; /* Places the div in the second column */
+            grid-column: 1; /* Places the div in the second column */
         }
 
 
@@ -698,6 +720,8 @@
         /* Title box*/ 
         .title_box{
             padding-top: 4rem;
+            justify-items: center;
+            display: flex;
         }
         /*Grid på section*/
         .grid_behind{
@@ -712,21 +736,25 @@
             box-sizing: border-box;
             overflow: hidden;
             padding-top: 0rem;
+            justify-items: center;
         }
 
         /*Section remove margin-right*/
         .behind_margin{
             display: flex;
-            overflow: hidd';
+            overflow: hidden;
             width: 100%;
             height: auto;
             margin-right: -2rem;
+            margin-left: -2rem;
+            justify-content: center;
+            margin-bottom: -5rem;
         }
         /*Textbox behind*/
         .behind_txt{
-            width: 30rem;
+            width: 80vw;
             text-align: justify;
         }
-
     }
+
         
